@@ -1,10 +1,4 @@
 katz_deli = []
-# def line(katz_deli)
-#   if katz_deli.length == 0
-#     puts "The line is currently empty."
-#   end
-# end
-
 
 def line(array)
   if array.length >= 1
@@ -36,8 +30,6 @@ def take_a_number(line, new_person)
   line.push(new_person)
   puts "Welcome, #{new_person}. You are number #{line.length} in line."
 end
-
-#take_a_number(katz_deli)
 
 def now_serving(line)
   if line.length == 0
